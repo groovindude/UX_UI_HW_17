@@ -13,6 +13,7 @@ header{
     font-weight: 700;
     font-style: normal;
     font-size: 20px;
+    position: fixed;
 }
 
 header .inner{
@@ -24,8 +25,6 @@ header .inner{
 
 .logo {
     display: table;
-    height: 100%;
-    height: 100%;
     float: left;
     display: table-cell;
     vertical-align: middle;
