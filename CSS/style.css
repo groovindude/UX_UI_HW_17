@@ -106,8 +106,59 @@ footer {
     height:373px;
     display: grid;
     grid-template-columns: 50% 25% 25%;
-    grid-template-rows: 80% 20%;
     grid-template-areas: "text" "sitemap" "image";
     background-color: #1E1E1E;
     color:#FCFFFE;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.btnoutline {
+    display: inline-flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px solid #FCFFFE;
+    background-color: #1E1E1E;
+    color: #FCFFFE;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p {
+    color: #FCFFFE;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+li {
+    color: #FCFFFE;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
 }
