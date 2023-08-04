@@ -153,6 +153,7 @@ h4 {
     line-height: normal;
     margin-top: 20px;
     margin-bottom: 20px;
+    transition: all .3s ease-in;
 }
 
 .btnoutline:hover{
